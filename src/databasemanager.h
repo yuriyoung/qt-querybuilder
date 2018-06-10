@@ -3,14 +3,14 @@
 
 #include <QObject>
 #include <QReadWriteLock>
-#include "lib_global.h"
+
 
 class QSqlQuery;
 class QSqlDatabase;
 
 const QString DATABASE_FILENAME = "project.db";
 
-class LIBSHARED_EXPORT DatabaseManager
+class DatabaseManager
 {
 public:
     ~DatabaseManager();
